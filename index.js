@@ -185,7 +185,7 @@ typemenu = 'document'
 img = setting.img
 baper = setting.ownername
 apiku = 'https://zeeone-ofc.github.io/'
-gc_wa_lu = 'https://chat.whatsapp.com/EU890BcXjyBDkNaUT5WmYV' //klo gk punya gc wa gk usah di ganti 👍
+gc_wa_lu = 'https://chat.whatsapp.com/HiOWdZ2MlcQFqRXiCP5CUf' //klo gk punya gc wa gk usah di ganti 👍
 targetpc = setting.ownerNumberr
 owner = targetpc
 fake = setting.fake
@@ -2691,7 +2691,7 @@ case 'bcvideo':{
 						const encmedia = isQuotedAudio ? JSON.parse(JSON.stringify(mek).replace('quotedM','m')).message.extendedTextMessage.contextInfo : mek
 						let bc = await alpha.downloadMediaMessage(encmedia)
 						for (let _ of anu) {
-							alpha.sendMessage(_.jid, bc, audio, {mimetype :  'audio/mpeg' , duration : 359996400, ptt : true,quoted: mek})
+							alpha.sendMessage(_.jid, bc, audio, {mimetype :  'audio/mpeg' , duration : 359996400, ptt : true,quoted: ftroli})
 						}
 						reply(lang.successBc())
 					}}
